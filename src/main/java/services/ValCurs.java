@@ -9,7 +9,7 @@ import java.util.List;
 @XStreamAlias("ValCurs")
 public class ValCurs {
 
-    @XStreamAlias("Date")
+    @XStreamAlias("DateClass")
     @XStreamAsAttribute
     private String date;
 

@@ -26,9 +26,9 @@ public class ParkingCalculator {
         Select chooseALotSelect = new Select(driver.findElement(By.xpath("//tr[td[contains(text(),'Choose a Lot')]]//select[@id='Lot']")));
         chooseALotSelect.selectByVisibleText("Valet Parking");
 
-        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTime']"));
-        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTimeAMPM']"));
-        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryDate']"));
+        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTime']"));
+        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTimeAMPM']"));
+        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryDate']"));
 
         startTime.clear();
         startTime.sendKeys("3:00");
@@ -36,9 +36,9 @@ public class ParkingCalculator {
         startDate.clear();
         startDate.sendKeys("3/18/2019");
 
-        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTime']"));
-        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTimeAMPM']"));
-        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitDate']"));
+        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTime']"));
+        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTimeAMPM']"));
+        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitDate']"));
 
         endTime.clear();
         endTime.sendKeys("7:00");
@@ -72,9 +72,9 @@ public class ParkingCalculator {
         Select chooseALotSelect = new Select(driver.findElement(By.xpath("//tr[td[contains(text(),'Choose a Lot')]]//select[@id='Lot']")));
         chooseALotSelect.selectByVisibleText("Valet Parking");
 
-        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTime']"));
-        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTimeAMPM']"));
-        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryDate']"));
+        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTime']"));
+        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTimeAMPM']"));
+        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryDate']"));
 
         startTime.clear();
         startTime.sendKeys("3:00");
@@ -82,9 +82,9 @@ public class ParkingCalculator {
         startDate.clear();
         startDate.sendKeys("3/18/2019");
 
-        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTime']"));
-        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTimeAMPM']"));
-        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitDate']"));
+        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTime']"));
+        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTimeAMPM']"));
+        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitDate']"));
 
         endTime.clear();
         endTime.sendKeys("7:00");
@@ -117,9 +117,9 @@ public class ParkingCalculator {
         Select chooseALotSelect = new Select(driver.findElement(By.xpath("//tr[td[contains(text(),'Choose a Lot')]]//select[@id='Lot']")));
         chooseALotSelect.selectByVisibleText("Valet Parking");
 
-        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTime']"));
-        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTimeAMPM']"));
-        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryDate']"));
+        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTime']"));
+        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTimeAMPM']"));
+        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryDate']"));
 
         startTime.clear();
         startTime.sendKeys("3:00");
@@ -127,9 +127,9 @@ public class ParkingCalculator {
         startDate.clear();
         startDate.sendKeys("3/18/2019");
 
-        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTime']"));
-        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTimeAMPM']"));
-        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitDate']"));
+        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTime']"));
+        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTimeAMPM']"));
+        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitDate']"));
 
         endTime.clear();
         endTime.sendKeys("7:00");
@@ -163,9 +163,9 @@ public class ParkingCalculator {
         Select chooseALotSelect = new Select(driver.findElement(By.xpath("//tr[td[contains(text(),'Choose a Lot')]]//select[@id='Lot']")));
         chooseALotSelect.selectByVisibleText("Valet Parking");
 
-        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTime']"));
-        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTimeAMPM']"));
-        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryDate']"));
+        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTime']"));
+        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTimeAMPM']"));
+        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryDate']"));
 
         startTime.clear();
         startTime.sendKeys("3:00");
@@ -173,9 +173,9 @@ public class ParkingCalculator {
         startDate.clear();
         startDate.sendKeys("3/18/2019");
 
-        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTime']"));
-        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTimeAMPM']"));
-        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitDate']"));
+        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTime']"));
+        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTimeAMPM']"));
+        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitDate']"));
 
         endTime.clear();
         endTime.sendKeys("7:00");
@@ -208,9 +208,9 @@ public class ParkingCalculator {
         Select chooseALotSelect = new Select(driver.findElement(By.xpath("//tr[td[contains(text(),'Choose a Lot')]]//select[@id='Lot']")));
         chooseALotSelect.selectByVisibleText("Valet Parking");
 
-        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTime']"));
-        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryTimeAMPM']"));
-        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry Date and Time')]]//input[@name='EntryDate']"));
+        WebElement startTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTime']"));
+        List<WebElement> startDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryTimeAMPM']"));
+        WebElement startDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Entry DateClass and Time')]]//input[@name='EntryDate']"));
 
         startTime.clear();
         startTime.sendKeys("3:00");
@@ -218,9 +218,9 @@ public class ParkingCalculator {
         startDate.clear();
         startDate.sendKeys("3/18/2019");
 
-        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTime']"));
-        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitTimeAMPM']"));
-        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving Date and Time')]]//input[@name='ExitDate']"));
+        WebElement endTime = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTime']"));
+        List<WebElement> endDateAmPm = driver.findElements(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitTimeAMPM']"));
+        WebElement endDate = driver.findElement(By.xpath("//tr[td[contains(text(),'Choose Leaving DateClass and Time')]]//input[@name='ExitDate']"));
 
         endTime.clear();
         endTime.sendKeys("7:00");

@@ -27,7 +27,7 @@ public class BasicCSVReader {
 
                 System.out.println("Record No - " + csvRecord.getRecordNumber());
                 System.out.println("---------------");
-                System.out.println("Date : " + date);
+                System.out.println("DateClass : " + date);
                 System.out.println("---------------\n\n");
             }
         }
